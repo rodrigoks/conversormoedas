@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 import { NumeroDirective } from './directives/numero.directive';
+import { DataBrPipe } from './pipes/data-br.pipe';
 
 import { ConversorComponent } from './components/conversor.component';
 import { ModalCotacaoComponent } from './utils/modal-cotacao.component';
@@ -17,7 +18,8 @@ import { ModalCotacaoComponent } from './utils/modal-cotacao.component';
   declarations: [
     ConversorComponent,
     NumeroDirective,
-    ModalCotacaoComponent
+    ModalCotacaoComponent,
+    DataBrPipe
   ],
   exports: [
     ConversorComponent
